@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Frontend Developer Diana Vargas</title>
@@ -16,7 +16,7 @@
                     <h1>/DianaVaror/</h1>
                     <nav id="nav" class="">
                         <ul>
-                        <li><a href="#home" class="active">INICIO</a></li>
+                        <li><a href="#inicio" class="active">INICIO</a></li>
                         <li><a href="#sobremi" class="active">SOBRE MI</a></li>
                         <li><a href="#portafolio" class="active">PORTAFOLIO</a></li>
                         <li><a href="#contacto" class="active">CONTACTO</a></li>
@@ -26,7 +26,7 @@
                     </nav>
 
                     <!-- Iconos del menu responsive-->
-                    <div id="icono-nav">
+                    <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
 
                     </div>
@@ -80,7 +80,7 @@
         <div class="skills">
             <div class="info">
                 <p><span class="lista"></span>Html & Css</p>
-                <span class="porcentaje">30%</span>
+                <span class="porcentaje">50%</span>
             </div>
             <div class="barra">
                 <div id="html" class="barra-progreso2"></div>
@@ -148,15 +148,62 @@
         <div class="fila">
             <div class="proyecto">
                 <div class="overlay"></div>
-                <img src="./images/proyecto1.png" alt="">
+                <img src="./images/bastidas.png" alt="">
                 <div class="info">
                     <h4>Descripcion del proyecto</h4>
-                    <p>Dise;o </p>
+                    <p>Bastidas Violin </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./images/haraud.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>haraud sas </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./images/autosandy.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Bastidas Violin </p>
                 </div>
             </div>
         </div>
     </section>
 
     
+    <!-- Seccion Contacto-->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Seccion Footer-->
+    <footer>
+        <p>Diana Varor Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
