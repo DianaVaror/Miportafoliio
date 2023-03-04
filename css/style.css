@@ -469,6 +469,7 @@ html {
 
 #contacto {
     padding: 100px 15px;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);;
 }
 
 #contacto .titulo-seccion {
@@ -483,7 +484,7 @@ html {
 }
 
 #contacto .contenedor-form {
-    max-width: 1100;
+    max-width: 600;
     margin: auto;
 }
 
