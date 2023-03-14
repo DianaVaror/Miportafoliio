@@ -33,12 +33,12 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0 20px;
 }
 
-#inicio .contenido header .contenido-header h1 {
+#inicio .contenido header .contenido-header img {
     text-align: center;
-    color: darkmagenta;
+    width: 150px;
 }
 
 #inicio .contenido header .contenido-header nav ul {
