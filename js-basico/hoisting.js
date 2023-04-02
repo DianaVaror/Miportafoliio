@@ -1,0 +1,2 @@
+var miNombre;
+miNombre = "Diana";
