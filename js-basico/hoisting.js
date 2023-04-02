@@ -1,2 +1,0 @@
-var miNombre;
-miNombre = "Diana";
