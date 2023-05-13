@@ -55,7 +55,7 @@ html {
     transition: .5s;
 }
 #inicio .contenido header .contenido-header nav ul a:hover{
-    color: darkmagenta;
+    color: #FFFF00;
 }
 
 #inicio .contenido header .contenido-header .redes a {
@@ -67,7 +67,7 @@ html {
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: darkmagenta;
+    color: #FFFF00;
 }
 
 #inicio .contenido .presentacion {
@@ -96,7 +96,7 @@ html {
 
 #inicio .contenido .presentacion h2 span {
     font-size: 25px;
-    color: darkmagenta;
+    color: #FFFF00;
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -171,7 +171,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: darkmagenta
+    color: #FFA500;
 }
 
 #sobremi .sobremi h3 {
@@ -354,7 +354,7 @@ html {
 
 #desafio .titulo-desafio{
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     text-transform: uppercase;
     color: #111235;
     text-decoration: underline;
@@ -389,7 +389,7 @@ html {
     position: absolute;
     left: 0;
     background-color: rgba(0,0,0, .8);
-    color: darkmagenta;
+    color: white;
     width: 100%;
     padding: 10px;
     opacity: 0;
@@ -437,20 +437,20 @@ html {
 #portafolio .fila .proyecto img{
     width: 100%;
     height: 100%;
-    filter: grayscale(1);
+    /*filter: grayscale(1); */
     object-fit: cover;
     transition: .5s;
 }
 
-#portafolio .fila .proyecto:hover img {
+/* #portafolio .fila .proyecto:hover img {
     filter: grayscale(0);
-}
+} */
 
 #portafolio .fila .proyecto .info {
     position: absolute;
     left: 0;
     background-color: rgba(0,0,0, .8);
-    color: darkmagenta;
+    color: white;
     width: 100%;
     padding: 10px;
     opacity: 0;
