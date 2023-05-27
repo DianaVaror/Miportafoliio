@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
 }
-.calculator{
+.calculadora{
     width: 400px;
     height: 600px;
     background-color: #ff9ac3;
@@ -22,7 +22,7 @@
 
 }
 
-.calculator button {
+.calculadora button {
     font-size: 1.5rem;
     background-color: #ff6b9d;
     border-radius: 50%;
@@ -31,7 +31,7 @@
 
 }
 
-.calculator button:hover {
+.calculadora button:hover {
     background-color: #e2e2e2;
 }
 
@@ -49,14 +49,14 @@
 .span2 {
     grid-column: span 2;
 }
-.superior-value {
+.valor-superior {
     color: black;
     font-size: 1.2rem;
     margin-bottom: 30px;
 
 }
 
-.inferior-value {
+.valor-inferior {
     color: black;
     font-size: 2rem;
 
