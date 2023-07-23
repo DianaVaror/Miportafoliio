@@ -1,44 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="./css/calculator.css">
-   
+  <title>Calculadora Fucsia</title>
+  <link rel="stylesheet" type="text/css" href="./css/calculator.css">
 </head>
 <body>
-    <div class="container">
-        <div class="calculadora">
-            <div class="display">
-                <div class="valor-superior" data-valor-superior></div>
-                <div class="valor-inferior" data-valor-inferior></div>
-            </div>
-    
-            <button class= "span2" data-borrar-todo>AC</button>
-            <button data-borrar>DEL</button>
-            <button data-operador>÷</button>
-            <button data-numero>1</button>
-            <button data-numero>2</button>
-            <button data-numero>3</button>
-            <button data-operador>*</button>
-            <button data-numero>4</button>
-            <button data-numero>5</button>
-            <button data-numero>6</button>
-            <button data-operador>+</button>
-            <button data-numero>7</button>
-            <button data-numero>8</button>
-            <button data-numero>9</button>
-            <button data-operador>-</button>
-            <button data-numero>.</button>
-            <button data-numero>0</button>
-            <button data-operador>%</button>
-            <button data-igual>=</button>
-        </div>
+  <div class="title">
+        <h1>Online calculator</h1>
+  </div>
+  <div class="calculator fucsia">
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+      <button class="number-button2" onclick="clearDisplay()">C</button>
+      <button class="number-button3"  onclick="appendToDisplay('**')">^</button>
+      <button class="number-button3"  onclick="calculateSquareRoot()">√</button>
+      <button class="number-button3"  onclick="appendToDisplay('/')">/</button>
+      <button class="number-button3"  onclick="appendToDisplay('*')">*</button>
+      <button class="number-button"  onclick="appendToDisplay('7')">7</button>
+      <button class="number-button"  onclick="appendToDisplay('8')">8</button>
+      <button class="number-button"  onclick="appendToDisplay('9')">9</button>
+      <button class="number-button3"  onclick="appendToDisplay('-')">-</button>
+      <button class="number-button"  onclick="appendToDisplay('4')">4</button>
+      <button class="number-button"  onclick="appendToDisplay('5')">5</button>
+      <button class="number-button"  onclick="appendToDisplay('6')">6</button>
+      <button class="number-button3"  onclick="appendToDisplay('+')">+</button>
+      <button class="number-button"  onclick="appendToDisplay('1')">1</button>
+      <button class="number-button"  onclick="appendToDisplay('2')">2</button>
+      <button class="number-button"  onclick="appendToDisplay('3')">3</button>
+      <button id="calculate-btn" onclick="calculate()">=</button>
+      <button class="number-button"  onclick="appendToDisplay('0')">0</button>
+      <button class="number-button2"  onclick="appendToDisplay('.')">.</button>
     </div>
-    
-
-<script src="./js/calculator.js"></script>
+  </div>
+  <script src="./js/calculator.js"></script>
 </body>
 </html>
