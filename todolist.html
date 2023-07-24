@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplicación de Tareas</title>
+  <link rel="stylesheet" href="./css/todolist.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Tareas</h1>
+    <input type="text" id="taskInput" placeholder="Ingrese una tarea...">
+    <input type="time" id="timeInput">
+    <button onclick="addTask()">Agregar Tarea</button>
+    <ol id="taskList"></ol>
+    <h2>Tareas Realizadas</h2>
+    <ul id="completedTasks"></ul>
+  </div>
+  <script src="./js/todolist.js"></script>
+</body>
+</html>
+
