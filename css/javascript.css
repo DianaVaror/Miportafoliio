@@ -80,11 +80,12 @@ header .contenido-header .redes a:hover {
     margin: 0 30px;
     position: relative;
     overflow: hidden;
+
 }
 #desafio .fila .proyecto img{
     width: 100%;
-    height: 100%;
-    filter: grayscale(1);
+    height: auto;
+    margin: 5px;
     object-fit: cover;
     transition: .5s;
 }
